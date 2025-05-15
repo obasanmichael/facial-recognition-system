@@ -90,7 +90,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onSubmit }) => {
 
   // Validate email format (must end with @stu.covenantuniversity.edu.ng)
   const validateEmail = (email: string): boolean => {
-    return email.endsWith("@stu.covenantuniversity.edu.ng");
+    return email.endsWith("@stu.cu.edu.ng");
   };
 
   // Handle form submission
@@ -208,7 +208,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onSubmit }) => {
                   type="email"
                   className="w-full p-3 border border-gray-300 rounded-md focus:border-primary-light focus:outline-none focus:ring-2 focus:ring-primary-light/20"
                   id="email"
-                  placeholder="youremail@stu.covenantuniversity.edu.ng"
+                  placeholder="youremail@stu.cu.edu.ng"
                   value={formData.email}
                   onChange={handleInputChange}
                   required
