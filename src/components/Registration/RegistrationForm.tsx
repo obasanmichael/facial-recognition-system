@@ -170,7 +170,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onSubmit }) => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-primary-dark relative">
           Student Registration
-          <span className="block w-20 h-1 bg-accent-color mx-auto mt-4"></span>
+          <span className="block w-20 h-1 bg-[#f3cf00] mx-auto mt-4"></span>
         </h2>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
